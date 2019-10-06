@@ -1,5 +1,3 @@
-INSERT INTO burgers (burger_name)
-VALUES ('Bacon Beast Burger'),
-('Tiny Bacon Beast Burger'),
-('Double Beast Burger'),
-('Beast Bean Burger')
+USE burgers_db;
+INSERT INTO burgers(burger_name, devoured)
+VALUES ("hamburger",false), ("cheeseburger",false), ("veggieburger",false);
